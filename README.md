@@ -123,12 +123,12 @@ A Load Balancer and optional Dockerization ensure scalability and deployment rea
 ### Backend
 
 ```bash
-git clone https://github.com/<your-username>/nextgen-lms.git
+git clone https://github.com/rushikeshrode/NextGen-Hub-LMS-backend
 cd nextgen-lms/backend
 ./mvnw clean install
 java -jar target/nextgen-lms-0.0.1-SNAPSHOT.jar
 
-Runs on http://localhost:8090
+Runs on http://localhost:8080
 
 MongoDB URI & Weather API Key should be configured in application.properties
 
